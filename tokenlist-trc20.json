@@ -1,0 +1,22 @@
+{
+    "name": "SAF Synthetic USD (TRC20)",
+    "timestamp": "2026-10-01T06:30:36.943Z",
+    "logoURI": "https://raw.githubusercontent.com/luccmick121/saf-synthetic-usd/main/logo.png",
+    "version": {
+        "major": 0,
+        "minor": 1,
+        "patch": 0
+    },
+    "tokens": [
+        {
+            "asset": "c195_tRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh",
+            "type": "TRC20",
+            "address": "TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh",
+            "name": "SAF Synthetic USD",
+            "symbol": "sUSD",
+            "decimals": 6,
+            "logoURI": "https://raw.githubusercontent.com/luccmick121/saf-synthetic-usd/main/logo.png",
+            "pairs": []
+        }
+    ]
+}
