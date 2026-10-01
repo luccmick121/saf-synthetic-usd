@@ -14,7 +14,7 @@ Ativo sintético TRC-20 (padrão SAF, template dynamic-governance).
 
 ## Links
 
-- Explorer: https://tronscan.org/#/token20/TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh
+- Explorer: https://tronscan.io/#/token20/TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh
 - Logo (PNG 256x256): https://raw.githubusercontent.com/luccmick121/saf-synthetic-usd/main/logo.png
 - Metadata: https://raw.githubusercontent.com/luccmick121/saf-synthetic-usd/main/metadata.json
 - Token list (TRC-20): https://raw.githubusercontent.com/luccmick121/saf-synthetic-usd/main/tokenlist-trc20.json
