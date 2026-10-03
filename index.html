@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SAF Synthetic USD (sUSD) — Ativo sintético TRC-20 na TRON</title>
-<meta name="description" content="sUSD é um ativo sintético TRC-20 na TRON com liquidez 1:1 em USDT na SunSwap. Contrato, pool, documentação e links oficiais.">
+<title>Anduin (ADN) â DÃ³lar sintÃ©tico TRC-20 na TRON</title>
+<meta name="description" content="Anduin (ADN) Ã© um dÃ³lar sintÃ©tico TRC-20 na TRON com peg 1:1 via pool SunSwap V2 semeada a exatos US$ 1,00. Contrato verificado, supply fixo, reservas transparentes.">
 <link rel="icon" href="logo.png">
 <style>
 :root{--verde:#26D97F;--escuro:#0B1F17;--claro:#EAF6F0}
@@ -29,38 +29,41 @@ ul{margin:12px 0 0 20px}
 </head>
 <body><div class="wrap">
 <header>
-  <img src="logo.png" alt="Logo sUSD">
+  <img src="logo.png" alt="Logo Anduin">
   <div>
-    <h1>SAF Synthetic USD <span class="tag">sUSD</span></h1>
-    <p style="color:#9FC4B4">Ativo sintético TRC-20 · TRON mainnet · lastro 1:1 em USDT (pool SunSwap V2)</p>
+    <h1>Anduin <span class="tag">ADN</span></h1>
+    <p style="color:#9FC4B4">The Great River flows at $1.00 Â· DÃ³lar sintÃ©tico TRC-20 Â· TRON mainnet Â· peg 1:1 via SunSwap V2</p>
   </div>
 </header>
 
 <div class="grid">
   <div class="card"><h3>Contrato (TRC-20)</h3><p><a href="https://tronscan.org/#/token20/TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh" rel="noopener">TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh</a></p></div>
-  <div class="card"><h3>Pool de liquidez</h3><p><a href="https://tronscan.org/#/token20/TDc25BkfgdeC5zXZSM6QqLVEA1XwcDkFHf" rel="noopener">TDc25BkfgdeC5zXZSM6QqLVEA1XwcDkFHf</a><br>sUSD ⇄ USDT · SunSwap V2 · preço US$ 1,000000</p></div>
-  <div class="card"><h3>Decimais / Supply</h3><p>6 decimais · 100.000.000.000 sUSD (fixo, sem mint para terceiros)</p></div>
-  <div class="card"><h3>Código-fonte</h3><p><a href="https://github.com/luccmick121/saf-synthetic-usd" rel="noopener">github.com/luccmick121/saf-synthetic-usd</a><br>Solidity 0.8.6 · verificado no Tronscan</p></div>
+  <div class="card"><h3>Pool de liquidez</h3><p><a href="https://tronscan.org/#/token20/TJLYPEWh2dBfm74aDBk4tvkHMgv8jLCs5k" rel="noopener">TJLYPEWh2dBfm74aDBk4tvkHMgv8jLCs5k</a><br>ADN â WTRX Â· SunSwap V2 Â· preÃ§o US$ 1,00</p></div>
+  <div class="card"><h3>Decimais / Supply</h3><p>6 decimais Â· 100.000.000.000 ADN (fixo, sem mint pÃºblico)</p></div>
+  <div class="card"><h3>GrÃ¡fico / PreÃ§o</h3><p><a href="https://dexscreener.com/tron/TJLYPEWh2dBfm74aDBk4tvkHMgv8jLCs5k" rel="noopener">DexScreener â ADN/WTRX</a><br>PreÃ§o on-chain: US$ 1,000000</p></div>
 </div>
 
-<h2>Características do ativo</h2>
+<h2>CaracterÃ­sticas do ativo</h2>
 <ul>
-  <li><b>FIAT-USD-PEGGED</b> — paridade semeada 1:1 com USDT na pool (reservas iguais dos dois lados)</li>
-  <li>Metadados on-chain atualizáveis pelo owner (<code>setName</code>, <code>setSymbol</code>, <code>setContractURI</code> — cada chamada emite evento)</li>
-  <li>Governança de transferência: modo anti-venda + whitelist on-chain (venda para pool/contratos bloqueada por padrão)</li>
-  <li><code>batchTransfer</code> para distribuição auditável; <code>swap</code> permissionado para liberação controlada de liquidez</li>
+  <li><b>FIAT-USD-PEGGED</b> â pool semeada a exatos US$ 1,00 (proporÃ§Ã£o ADN/WTRX calculada ao vivo pelo preÃ§o de mercado do WTRX)</li>
+  <li>Supply fixo de 100 bilhÃµes â sem mint pÃºblico; distribuiÃ§Ã£o auditÃ¡vel on-chain</li>
+  <li>Metadados on-chain atualizÃ¡veis pelo owner (<code>setName</code>, <code>setSymbol</code> â cada chamada emite evento)</li>
+  <li>GovernanÃ§a de transferÃªncia: modo anti-venda + whitelist on-chain (proteÃ§Ã£o contra dump em pool)</li>
+  <li><code>batchTransfer</code> para distribuiÃ§Ã£o auditÃ¡vel; reservas da pool 100% pÃºblicas no Tronscan</li>
 </ul>
 
 <h2>Links oficiais</h2>
 <ul>
   <li>Explorer (token): <a href="https://tronscan.org/#/token20/TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh" rel="noopener">Tronscan</a></li>
-  <li>Explorer (pool): <a href="https://tronscan.org/#/token20/TDc25BkfgdeC5zXZSM6QqLVEA1XwcDkFHf" rel="noopener">Tronscan — pool sUSD/USDT</a></li>
-  <li>Negociação: <a href="https://sun.io/#/v2/swap?input=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t&output=TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh" rel="noopener">SUN.io — trocar USDT por sUSD</a></li>
-  <li>Metadata: <a href="metadata.json">metadata.json</a> · Token list: <a href="tokenlist-trc20.json">tokenlist-trc20.json</a></li>
+  <li>Explorer (pool): <a href="https://tronscan.org/#/token20/TJLYPEWh2dBfm74aDBk4tvkHMgv8jLCs5k" rel="noopener">Tronscan â pool ADN/WTRX</a></li>
+  <li>NegociaÃ§Ã£o: <a href="https://sun.io/#/v2/swap?input=TNUC9Qb1rRpS5CbWLmNMxXBjyFoydXjWFR&output=TRfGaxNXQzeApzfLjrGTBJBK9uw8aDxaWh" rel="noopener">SUN.io â trocar WTRX por ADN</a></li>
+  <li>GrÃ¡fico: <a href="https://dexscreener.com/tron/TJLYPEWh2dBfm74aDBk4tvkHMgv8jLCs5k" rel="noopener">DexScreener</a></li>
+  <li>CÃ³digo-fonte: <a href="https://github.com/luccmick121/saf-synthetic-usd" rel="noopener">GitHub</a> Â· Solidity 0.8.6 Â· verificado no Tronscan</li>
+  <li>Metadata: <a href="metadata.json">metadata.json</a> Â· Token list: <a href="tokenlist-trc20.json">tokenlist-trc20.json</a></li>
 </ul>
 
 <footer>
-  Ativo sintético experimental. Não é emitido pela Tether nem afiliado a ela; não constitui dívida ou garantia real.<br>
-  SAF — Synthetic Asset Framework · 2026
+  Anduin (ADN) â ativo sintÃ©tico experimental na TRON. NÃ£o constitui dÃ­vida ou garantia real.<br>
+  SAF â Synthetic Asset Framework Â· 2026
 </footer>
 </div></body></html>
